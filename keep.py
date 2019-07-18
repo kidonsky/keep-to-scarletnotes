@@ -4,7 +4,6 @@ import os, bs4, glob, unicodecsv as csv
 from dateutil.parser import parse
 from datetime import datetime
 files = glob.glob("Keep/*.html")
-notes = []
 
 #Prep CSV file
 now = datetime.now()
